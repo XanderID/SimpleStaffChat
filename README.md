@@ -2,6 +2,8 @@
 
 a Simple StaffChat for PM4
 
+there are some bugs maybe tonight at 8 pm in WIB I will fix it
+
 # Commands
 
 Commands only 1 to enable and disable StaffChat
