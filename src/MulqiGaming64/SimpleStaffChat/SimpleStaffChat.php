@@ -93,7 +93,9 @@ class SimpleStaffChat extends PluginBase implements Listener {
     	$chat = $event->getMessage();
     	
     	if(!$this->checkPrefix($chat) && !$this->isChatStaff($player)) return false;
-    	$chat = substr($chat, strlen($this->getConfig()->get("prefix-chat"))); // Crop the prefix on chat
+    	if($this->checkPrefix($chat)){
+    		$chat = substr($chat, strlen($this->getConfig()->get("prefix-chat"))); // Crop the prefix on chat
+		}
     	$format = str_replace(["{player}", "{chat}"], [$player->getName(), $chat], $this->getConfig()->get("format"));
     	$recipients = $this->getStaffReception(true);
     	if(!$this->isChatStaff($player)){// Why add this? if player use prefix the message will not go to yourself
