@@ -1,0 +1,9 @@
+---
+# Prefix for chat without commands
+prefix-chat: "@"
+
+# Format for chat
+# {player} For name Player
+# {chat} For Chat Player
+format: "§a[§eStaffChat§a] §b{player} > §e{chat}"
+...
