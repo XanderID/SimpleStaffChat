@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MulqiGaming64\SimpleStaffChat\Commands;
+namespace XanderID\SimpleStaffChat\Commands;
 
 use pocketmine\command\Command;
 use pocketmine\player\Player;
@@ -10,7 +10,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginOwned;
 use pocketmine\utils\TextFormat;
 
-use MulqiGaming64\SimpleStaffChat\SimpleStaffChat;
+use XanderID\SimpleStaffChat\SimpleStaffChat;
 
 class SimpleStaffChatCommands extends Command implements PluginOwned {
 

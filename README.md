@@ -33,5 +33,5 @@ format: "§a[§eStaffChat§a] §b{player} > §e{chat}"
 
 # Additional Notes
 
-- If you find bugs or want to give suggestions, please visit [here](https://github.com/MulqiGaming64/SimpleStaffChat/issues)
+- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/SimpleStaffChat/issues)
 - Icons By [www.flaticon.com](https://www.flaticon.com)

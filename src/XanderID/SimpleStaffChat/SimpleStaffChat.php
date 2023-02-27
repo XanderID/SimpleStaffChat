@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MulqiGaming64\SimpleStaffChat;
+namespace XanderID\SimpleStaffChat;
 
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
@@ -13,7 +13,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\lang\Language;
 
-use MulqiGaming64\SimpleStaffChat\Commands\SimpleStaffChatCommands;
+use XanderID\SimpleStaffChat\Commands\SimpleStaffChatCommands;
 
 class SimpleStaffChat extends PluginBase implements Listener {
 	

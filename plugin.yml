@@ -1,9 +1,9 @@
 ---
 name: SimpleStaffChat
 version: 1.0.0
-main: MulqiGaming64\SimpleStaffChat\SimpleStaffChat
+main: XanderID\SimpleStaffChat\SimpleStaffChat
 api: 4.0.0
-author: MulqiGaming64
+author: XanderID
 description: a Plugin for enable player chat in staff channel
 
 permissions:
